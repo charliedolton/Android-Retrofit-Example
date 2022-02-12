@@ -10,11 +10,10 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
+import com.example.androidretrofitexample.apis.Util;
 
 import java.util.ArrayList;
 import java.util.List;
-
-import com.bumptech.glide.util.Util;
 
 public class BookSearchResultsAdapter extends RecyclerView.Adapter<BookSearchResultsAdapter.BookSearchResultHolder> {
     private List<Volume> results = new ArrayList<>();
